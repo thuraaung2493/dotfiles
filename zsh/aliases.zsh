@@ -7,7 +7,7 @@ alias sshconfig="vi ~/.ssh/config"
 
 # Finder
 alias o="open ."
-alias clock="tuime -f SevenSeg -g '#f5e0dc' -g '#cdd6f4' -g '#f2cdcd' -g '#cba6f7'"
+alias clock="tuime -c red -c black"
 alias ls=lsd
 alias ll="ls -l"
 alias llah="ls -lah"

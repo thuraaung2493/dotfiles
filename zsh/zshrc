@@ -10,10 +10,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-for file in paths exports aliases functions nvm; do
+for file in paths exports aliases functions herd; do
   source "$DOTFILES/zsh/$file.zsh"
 done
 
-# [[ -f ~/.zsh/conda.zsh ]] && source ~/.zsh/conda.zsh
-
-# eval "$(starship init zsh)"
+[[ -f ~/.zsh/conda.zsh ]] && source ~/.zsh/conda.zsh

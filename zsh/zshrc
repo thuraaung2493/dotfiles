@@ -14,6 +14,6 @@ for file in paths exports aliases functions nvm; do
   source "$DOTFILES/zsh/$file.zsh"
 done
 
-[[ -f ~/.zsh/conda.zsh ]] && source ~/.zsh/conda.zsh
+# [[ -f ~/.zsh/conda.zsh ]] && source ~/.zsh/conda.zsh
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"

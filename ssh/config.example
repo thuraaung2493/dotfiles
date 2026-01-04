@@ -1,0 +1,56 @@
+# GITHUB
+Host github.com
+    HostName github.com
+    UseKeychain yes
+    AddKeysToAgent yes
+    User git
+    IdentityFile ~/.ssh/id_rsa
+
+# GITLAB
+Host gitlab.com
+    HostName gitlab.com
+    UseKeychain yes
+    AddKeysToAgent yes
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+
+# GITLAB HANA
+Host 47.130.30.132
+    HostName 47.130.30.132
+    UseKeychain yes
+    AddKeysToAgent yes
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+
+Host admin_dev
+    HostName 54.251.111.173
+    User thura
+    IdentityFile ~/.ssh/id_rsa
+
+Host api_dev
+    HostName 54.179.151.6
+    User thura
+    IdentityFile ~/.ssh/id_rsa
+
+Host middleware_dev
+    HostName 54.169.122.228
+    User thura
+    IdentityFile ~/.ssh/id_rsa
+
+Host api
+    HostName "18.142.191.240"
+    User thura-aung
+    IdentityFile ~/.ssh/id_rsa
+    Port 72
+
+Host middleware
+    HostName "46.137.198.131"
+    User thura-aung
+    IdentityFile ~/.ssh/id_rsa
+    Port 29
+
+Host admin
+    HostName "54.255.18.124"
+    User thura-aung
+    IdentityFile ~/.ssh/id_rsa
+    Port 89

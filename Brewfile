@@ -1,0 +1,18 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "oven-sh/bun"
+
+brew "git"
+brew "fzf"
+brew "tmux"
+brew "go"
+brew "pnpm"
+brew "bun"
+brew "btop"
+brew "lsd"
+
+cask "warp"
+cask "docker"
+cask "anaconda"
+cask "font-jetbrains-mono-nerd-font"
